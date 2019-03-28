@@ -1,0 +1,162 @@
+/* Body */
+
+body {
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+
+/* Menu */
+
+.menu {
+  background: #555 url('images/menu-bg.jpg') repeat left top;
+  left: -285px; /* прячем меню */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+
+/* Basic CSS */
+
+.background {
+  background-image: url('https://stopga.me/images/uploads/images/308400/form/2018/01/03/normal_1514989698.jpg'); 
+  height: 800px;
+  width: 100%;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+          
+}
+
+.menu ul {
+  border-top: 1px solid #555;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #555;
+  font-family: 'Baloo Chettan', cursive;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu li:hover {
+  cursor: pointer;
+  background-color: #555;
+  }
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Baloo Chettan', cursive;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 6px;
+}
+
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Baloo Chettan', cursive;
+  font-size: 20px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-menu img {
+  margin-right: 5px;
+}
+
+.carousel-container {
+  display: block;
+  width: 520px;
+  height: 380px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  top: 150px;
+  opacity: 0.5;
+  border-radius: 20px 20px 20px 20px;
+  transition:  2s ease;
+}
+.carousel-container:hover {
+  opacity: 1;
+  cursor: pointer;
+  
+ 
+  
+  transform:  2s ease;;
+
+}
+.carousel-slides {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.slide {
+  position: absolute;
+  top: 0;
+}
+.slide:nth-child(1){
+  left: 0;
+
+}
+.slide:nth-child(2){
+  left: 100%;
+}
+.slide:nth-child(3){
+  left: 200%;
+}
+.slide:nth-child(4){
+  left: 300%;
+}
+.slide:nth-child(5){
+  left: 400%;
+}
+.slide:nth-child(6){
+  left: 500%;
+}
+
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  top: 150px;
+
+}
+.btn {
+  width: 30px;
+  height: 30px;
+  background-image: url('https://image.flaticon.com/icons/png/512/15/15509.png');
+  background-position: 0 0;
+  background-size: cover;
+
+}
+.btn:nth-child(1) {
+  transform: rotate(180deg);
+}
+
+
+
